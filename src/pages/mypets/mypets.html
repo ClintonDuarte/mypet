@@ -1,0 +1,53 @@
+<!--
+  Generated template for the MypetsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My pets</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-avatar item-start (click)="openPet()">
+        <img src="../assets/imgs/golden.jpg">
+      </ion-avatar>
+      <h2>Golden</h2>
+      <p>Golden Retriever</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start (click)="openPet()">
+        <img src="../assets/imgs/snoopy.gif">
+      </ion-avatar>
+      <h2>Snoopy</h2>
+      <p>Beagle</p>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../assets/imgs/woodstock.jpg">
+      </ion-avatar>
+      <h2>Woodstock</h2>
+      <p>Canário</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab right bottom>
+    <button ion-fab color="danger"><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list side="top">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>

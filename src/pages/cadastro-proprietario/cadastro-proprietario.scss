@@ -1,0 +1,14 @@
+page-cadastro-proprietario {
+    .item-md ion-avatar img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .item-md ion-avatar[item-start] img{
+        margin: auto;
+    }
+
+    .button{
+        margin-top: 10px;
+    }
+}

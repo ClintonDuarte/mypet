@@ -1,0 +1,11 @@
+page-details-pet {
+    .item-md ion-avatar img{
+        width: 45%;
+        height: 45%;
+    }
+
+    .item-md ion-avatar[item-start] img{
+        margin: auto;
+        border-radius: 10%
+    }
+}
